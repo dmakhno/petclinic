@@ -50,6 +50,6 @@ class PetOwnerStepsEx(pages:Pages) extends PetOwnerSteps(pages) {
   @Step
   def verify_title {
     val page = getPages.currentPageAt(classOf[HomePage])
-    assertThat(page.greeting.getText.trim, is("Welcome"))
+    assertThat(page.greeting.getText.trim, is("Anton Fork"))
   }
 }
