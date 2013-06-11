@@ -61,6 +61,6 @@ public class PetOwnerSteps extends ScenarioSteps {
 
     @Step
     public void verifyTitle() {
-        assertTrue(onMainPage().isGreetingSameWith("Welcome"));
+        assertTrue(onMainPage().isGreetingSameWith("Anton Fork"));
     }
 }
